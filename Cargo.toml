@@ -1,0 +1,15 @@
+[package]
+name = "m64_screenshot_parse"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+lto = "fat"
+opt-level = 3
+
+[dependencies]
+anyhow = "1.0.104"
+ffmpeg-next = "9.0.0"
+image = "0.25.10"
+indicatif = "0.18.6"
+pigment64 = "0.6.3"
